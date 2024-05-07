@@ -128,6 +128,10 @@ definitions:
 Please use this input to generate a yaml schema for the following input and output only the generated schema in the chat:
 """
 
+# with open('nomad_cheat_sheet.schema.archive.txt', 'r') as file:
+#     content = file.read()
+#     content.replace("`", "")
+#     cheatsheet = "You are a schema generator. Below you will get a schema snippet as input. You should output only the generated schema and no other text!\n here is a snippet from cheat sheet to write data schemas in yaml for NOMAD (www.nomad-lab.eu):" + content + ("\n \n \nPlease use this input to generate a yaml schema for the following input and output only the generated schema in the chat:")
 
 prompt = ChatPromptTemplate.from_template(cheatsheet + "{userpromp}")
 output_parser = StrOutputParser()
@@ -140,14 +144,20 @@ def invokechain(userinput):
 
     return chain.invoke({"userpromp": userinput }) 
 # Title of the app
-st.title('Invoke Chain App')
-
+st.title('NOMAD Schema Generator App')
+appdescription="""
+This Generator App can create Custom yaml schemas for NOMAD (www.nomad-lab.eu).
+It takes the user prompt, generates a yaml schema and prints it below if it 
+was verified successfully to be a working NOMAD schema. 
+In case the LLM generates errors it will try to fix the schema and try again 
+up to 5 times. If it still fails, it will print the error message."""
+st.text(appdescription)
 # Text input field
 # user_input = st.text_input("Please enter your input:")
-user_input = st.text_area("Enter your text here:")
+user_input = st.text_area("Enter your description of your experiment here:")
 
 # Button
-if st.button('Invoke Chain'):
+if st.button('Generate Schema'):
     # Call the invokechain function with the user's input
     result = invokechain(user_input)
     #result = yaml.safe_load(ast.literal_eval(result))
@@ -191,14 +201,17 @@ if st.button('Invoke Chain'):
                 st.write(f"An error occurred: {error}")
         # Display the result
 
-    st.write("``` \n" + result)
+    st.text("``` \n" + result)
     #else:
         
-
-
-""" 
+text = """
+Example input:
+```
 MySinteringSchema:
-  temperature: 34.5°
+  temperature: 394.5K
   process_finished: True
-  user: Sebastian"
-              """
+  user: Sebastian
+```
+"""
+st.markdown(text)
+#st.write("Example input:\n\nMySinteringSchema:\n  temperature: 394.5K\n  process_finished: True\n  user: Sebastian")
