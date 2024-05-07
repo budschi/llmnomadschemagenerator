@@ -171,10 +171,10 @@ if st.button('Invoke Chain'):
         for counter in range(5):
             #counter += 1
             st.write(counter)
-            result = invokechain("You produced the following schema:" + result + "\n It returned this error: " + type(error.__name__) + "Please fix the schema and try again.")
+            result = invokechain("You produced the following schema:" + result + "\n It returned this error: " + str(error) + "Please fix the schema and try again.")
             #result = yaml.safe_load(ast.literal_eval(result))
             with open('output2.schema.archive.yaml', 'w') as file:
-                data = yaml.load(fixingschema, Loader=yaml.FullLoader)  # Use FullLoader to parse the YAML
+                data = yaml.load(result, Loader=yaml.FullLoader)  # Use FullLoader to parse the YAML
                 yaml.dump(data, file, default_flow_style=False) 
             #try:
             #    parse('output.schema.archive.yaml')

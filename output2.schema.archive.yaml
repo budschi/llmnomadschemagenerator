@@ -1,14 +1,41 @@
 definitions:
-  name: MyExperiment
+  name: MySinteringSchema
   sections:
-    MyExperiment:
+    MySinteringData:
       base_sections:
       - nomad.datamodel.data.EntryData
       quantities:
-        pressure:
+        process_finished:
+          description: null
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        temperature:
           description: null
           m_annotations:
             eln:
               component: NumberEditQuantity
           type: np.float64
-          unit: mbar
+          unit: percent_unit
+        user:
+          description: null
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+          type: string
+  unit_registry:
+    percent_unit:
+      unit: percent_unit
+  units:
+    percent_unit:
+      conversion_factor: 0.01
+      dimensionality:
+      - 1
+      - -1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      symbol: '%'
