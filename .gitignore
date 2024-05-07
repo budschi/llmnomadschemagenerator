@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.py
+!*/**/*.py
+!*.txt
+!*/**/*.txt
+!*.md
+!*/**/*.md
+!*.zip
+!*/**/*.zip
+!*.yaml
+!*/**/*.yaml
+!*.yml
+!*/**/*.yml
+!*.json
+!*/**/*.json
+!*.ipynb
+!*/**/*.ipynb
