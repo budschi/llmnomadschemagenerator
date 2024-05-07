@@ -1,0 +1,113 @@
+"""
+You are a schema generator. Below you will get a schema snippet as input. You should output only the generated schema and no other text!
+here is a snippet from cheat sheet to write data schemas in yaml for NOMAD (www.nomad-lab.eu):
+# Description: This is a cheat sheet for the NOMAD custom schema.
+#   It is a minimal example of how to define a custom schema.
+#   It is not intended to be used for real data.
+#   It is intended to be used as a starting point for defining a custom schema.
+#   It is intended to be used as a reference for the syntax of the custom schema.
+
+# defining the schema:
+definitions:
+  name: "Cheatsheet"
+  sections:
+    CheatSheet: # sections are in pascal case (not mandatory but best practice)
+      base_sections:
+      - nomad.datamodel.data.EntryData
+
+      # adding quantities:
+      quantities: # quantities are in snake case (not mandatory but best practice)
+
+        # myquantity: test
+        string:
+          type: string
+          description:
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+
+        # reference: www.example.com
+        url_link:
+          type: string
+          description:
+          m_annotations:
+            eln:
+              component: URLEditQuantity
+
+        # myfloatquantity: 1.0
+        float:
+          type: np.float64
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+
+        # myfloatquantitywithunit: 1.0 fs
+        float_unit:
+          type: np.float64
+          unit: second
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "fs"
+
+        # myfloatquantitywithderivedunit: 1.0 eV
+        float_derived_unit:
+          type: np.float64
+          unit: joule
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "eV"
+
+        # myfloatquantitycomplexunit: 1.0 mA/ms^2*cm
+        float_complex_unit:
+          type: np.float64
+          unit: ampere / second^2 * meter
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "milliampere / ms^2 * cm"
+
+        # myfloatquantitywithbounds: 0.0 - 10.0 m
+        float_with_bounds:
+          type: np.float64
+          unit: meter
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              minValue: 0
+              maxValue: 10
+
+        # myintquantity: 1
+        int:
+          type: int
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+
+        # myintquantitywithbounds: 0 - 10
+        int_with_bounds:
+          type: int
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              minValue: 0
+              maxValue: 10
+
+        # myboolquantity: true
+        bool:
+          type: bool
+          description:
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+
+Please use this input to generate a yaml schema for the following input and output only the generated schema in the chat:
+"""

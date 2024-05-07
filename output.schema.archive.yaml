@@ -1,0 +1,99 @@
+definitions:
+  name: Raman Schema
+  sections:
+    RamanMeasurement:
+      base_sections:
+      - nomad.datamodel.data.EntryData
+      quantities:
+        accumulation:
+          description: Accumulation setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        acquisition_time:
+          description: Acquisition time
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: np.float64
+          unit: second
+        adjustment_screw:
+          description: Adjustment screw value
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: int
+        autofocus:
+          description: Autofocus setting (on/off)
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+          type: string
+        grating:
+          description: Grating setting
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+          type: string
+        laser_power_percentage:
+          description: Laser power percentage
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: np.float64
+        laser_wavelength:
+          description: Laser wavelength
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: np.float64
+          unit: nanometer
+        manual_filter_1:
+          description: Manual Filter 1 setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        manual_filter_2:
+          description: Manual Filter 2 setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        manual_filter_3:
+          description: Manual Filter 3 setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        measured_range_wavelength:
+          description: Measured range/wavelength (Raman shift/nm)
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+          type: string
+        nd_filter:
+          description: ND filter setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        objective_lens:
+          description: Objective lens setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        polarizer:
+          description: Polarizer setting
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+          type: bool
+        sample_id:
+          description: Sample ID
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+          type: string

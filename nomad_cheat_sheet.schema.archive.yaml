@@ -1,0 +1,404 @@
+# Description: This is a cheat sheet for the NOMAD custom schema.
+#   It is a minimal example of how to define a custom schema.
+#   It is not intended to be used for real data.
+#   It is intended to be used as a starting point for defining a custom schema.
+#   It is intended to be used as a reference for the syntax of the custom schema.
+
+# defining the schema:
+definitions:
+  name: "Cheatsheet"
+  sections:
+    CheatSheet: # sections are in pascal case (not mandatory but best practice)
+      base_sections:
+      - nomad.datamodel.data.EntryData
+
+      # adding quantities:
+      quantities: # quantities are in snake case (not mandatory but best practice)
+
+        # myquantity: test
+        string:
+          type: string
+          description:
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+
+        # reference: www.example.com
+        url_link:
+          type: string
+          description:
+          m_annotations:
+            eln:
+              component: URLEditQuantity
+
+        # myfloatquantity: 1.0
+        float:
+          type: np.float64
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+
+        # myfloatquantitywithunit: 1.0 fs
+        float_unit:
+          type: np.float64
+          unit: second
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "fs"
+
+        # myfloatquantitywithderivedunit: 1.0 eV
+        float_derived_unit:
+          type: np.float64
+          unit: joule
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "eV"
+
+        # myfloatquantitycomplexunit: 1.0 mA/ms^2*cm
+        float_complex_unit:
+          type: np.float64
+          unit: ampere / second^2 * meter
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: "milliampere / ms^2 * cm"
+
+        # myfloatquantitywithbounds: 0.0 - 10.0 m
+        float_with_bounds:
+          type: np.float64
+          unit: meter
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              minValue: 0
+              maxValue: 10
+
+        # myintquantity: 1
+        int:
+          type: int
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+
+        # myintquantitywithbounds: 0 - 10
+        int_with_bounds:
+          type: int
+          description:
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              minValue: 0
+              maxValue: 10
+
+        # myboolquantity: true
+        bool:
+          type: bool
+          description:
+          m_annotations:
+            eln:
+              component: BoolEditQuantity
+
+        # myradionenumquantity: [ ]one, [ ]two, [ ]three
+        radio_enum:
+          type:
+            type_kind: Enum
+            type_data:
+              - one
+              - two
+              - three
+          description:
+          m_annotations:
+            eln:
+              component: RadioEnumEditQuantity
+
+        # myselectenumquantity: [one, two, three]
+        select_enum:
+          type:
+            type_kind: Enum
+            type_data:
+              - one
+              - two
+              - three
+          description:
+          m_annotations:
+            eln:
+              component: EnumEditQuantity
+
+        # myselectenumquantitywithsuggestions: [one, two, three] suggestions: [one, two, three]
+        string_with_suggestions:
+          type: str
+          description:
+          m_annotations:
+            eln:
+              component: EnumEditQuantity
+              suggestions: ['one', 'two', 'three']
+
+        # myautocompleteenumquantity: [one, two, three] autocomplete: [one, two, three]
+        autocomplete_enum:
+          type:
+            type_kind: Enum
+            type_data: ['one', 'two', 'three']
+          description:
+          m_annotations:
+            eln:
+              component: AutocompleteEditQuantity
+
+        # # mysliderquantity: 0 - 10 slider
+        slider:
+          type: int
+          description:
+          m_annotations:
+            eln:
+              component: SliderEditQuantity
+              minValue: 0
+              maxValue: 10
+
+
+        # mydatetimequantity: 2020-01-01 00:00:00
+        # date_time:
+        #   type: nomad.metainfo.Datetime
+        #   m_annotations:
+        #     eln:
+        #       component: DateTimeEditQuantity
+
+        # mydatequantity: 2020-01-01
+        # date:
+        #   type: nomad.metainfo.Datetime
+        #   m_annotations:
+        #     eln:
+        #       component: DateEditQuantity
+
+        # # # mytimequantity: 00:00:00
+        # time:
+        #   type: nomad.metainfo.Datetime
+        #   m_annotations:
+        #     eln:
+        #       component: TimeEditQuantity
+
+
+        # myrichtextquantity: <p>test</p>
+        rich_text:
+          type: str
+          description:
+          m_annotations:
+            eln:
+              component: RichTextEditQuantity
+
+        # mystringlistquantity: [one, two, three, ...]
+        list:
+          type: str
+          shape: ['*']
+          description:
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+
+        # mystringlistquantitywithfixeditems: [one, two, three]
+        list_fixed:
+          type: str
+          shape: [3]
+          description:
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+
+        # myauthorquantity: Max Mustermann
+        user:
+          type: User
+          description:
+          m_annotations:
+            eln:
+              component: AuthorEditQuantity
+
+        # myautthorquantity: Max Mustermann - Author
+        author:
+          type: User
+          description:
+          m_annotations:
+            eln:
+              component: AuthorEditQuantity
+
+        # myreferencequantity: Reference.archive.json
+        my_reference:
+          type: nomad.datamodel.data.EntryData  # can be specified to more specific types like Measurement
+          description:
+          m_annotations:
+            eln:
+              component: ReferenceEditQuantity
+
+        # myfilequantity: Filename.ending
+        png_file:
+          type: str
+          description: |
+            The png file name.
+          m_annotations:
+            # The eln annotation allows add the quantity to a ELN
+            eln:
+              component: FileEditQuantity
+            browser:
+              adaptor: RawFileAdaptor
+      sub_sections: # sub sections are in snake case (not mandatory but best practice)
+        my_sub_section:
+          section:
+            quantities:
+              name:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+              stringquantity:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+              stringquantity_tobeshownonoverview:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+              floatquantitywithunit:
+                type: np.float64
+                unit: millibar
+                description:
+                m_annotations:
+                  eln:
+                    component: NumberEditQuantity
+        my_repeatable_sub_section:
+          repeats: true
+          section:
+            quantities:
+              # if a name quantity is defined, it will be used as the name of the section
+              name:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+              anotherstringquantity:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+        my_sub_section_on_the_overview: # not working yet! see https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR/-/issues/1817
+          m_annotations:
+            eln:
+              overview: True
+          section:
+            quantities:
+              stringquantity_tobeshownonoverview:
+                type: str
+                description:
+                m_annotations:
+                  eln:
+                    component: StringEditQuantity
+        my_inherited_subsection:
+          section:  '#/MySectionToInherit'
+    MySectionToInherit:
+      base_sections:
+      - nomad.datamodel.data.ArchiveSection
+      quantities:
+        my_quantity:
+          type: str
+          description:
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+
+    # Tabular parser cheatsheet
+    # follow https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/tabular.html for more information
+
+    # this mode let you parse columns from excel sheets into NOMAD arrays in the same entry
+    CheatSheetTabularParserColumn:
+      base_sections: # this are the base section needed (in this order!) to parse the excel file
+       - nomad.datamodel.data.EntryData
+       - nomad.parsing.tabular.TableData
+      m_annotations:
+        eln:
+      # adding quantitiy where to drop the excel file in the eln:
+      quantities:
+        data_file:
+          type: str
+          default: test.xlsx
+          m_annotations:
+            tabular_parser:
+              parsing_options:
+                # sep: ','  # separator must be used only for csv files
+                comment: '#' # if you insert comment line before the headers (do not insert at the end of your data)
+              mapping_options:
+                - mapping_mode: column
+                  file_mode: current_entry # for other file modes see https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-lab-base/-/blob/master/nomad/parsing/tabular/mapping.py
+                  sections:
+                    - my_sub_section_2
+            browser:
+              adaptor: RawFileAdaptor
+            eln:
+              component: FileEditQuantity
+      sub_sections:
+        my_sub_section_2:
+          section: '#/MySubSection2' # this syntax indicates a reference to a section defined in this schema (see the line below)
+    MySubSection2:
+      m_annotations:
+        eln:
+      quantities:
+        my_array_quantity_1:
+          type: str
+          shape: ['*']
+          m_annotations:
+            tabular: # this annotation is required to parse the column
+              name: "My header 1"
+        my_array_quantity_2:
+          type: str
+          shape: ['*']
+          m_annotations:
+            tabular: # this annotation is required to parse the column
+              name: "My header 2"
+
+    # this mode let you parse each row from excel sheets into a new NOMAD entry (useful for lists of chemical, etc.)
+    CheatSheetTabularParserRow:
+      base_sections:
+       - nomad.datamodel.data.EntryData
+       - nomad.parsing.tabular.TableData
+      m_annotations:
+        eln:
+      more:
+        label_quantity: 'my_quantity_1'
+      quantities:
+        data_file:
+          type: str
+          default: test.xlsx
+          m_annotations:
+            tabular_parser:
+              parsing_options:
+                comment: '#'
+              mapping_options:
+                - mapping_mode: row
+                  file_mode: multiple_new_entries
+                  sections:
+                    - '#root' # this syntax indicates that each entry will have the present class as schema definition
+            browser:
+              adaptor: RawFileAdaptor
+            eln:
+              component: FileEditQuantity
+        my_quantity_1:
+          type: str
+          m_annotations:
+            tabular:
+              name: "My header 1"
+        my_quantity_2:
+          type: str
+          m_annotations:
+            tabular:
+              name: "My header 2"
+# at the link https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/tabular.html there are a total of eight modes you can use with the tabular parser

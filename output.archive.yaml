@@ -6,20 +6,20 @@ definitions:
       - nomad.datamodel.data.EntryData
       quantities:
         process_finished:
-          description: Indicates whether the process is finished
+          description: null
           m_annotations:
             eln:
               component: BoolEditQuantity
           type: bool
         temperature:
-          description: Temperature during sintering process
+          description: null
           m_annotations:
             eln:
               component: NumberEditQuantity
           type: np.float64
-          unit: degree Celsius
+          unit: °C
         user:
-          description: User who performed the sintering process
+          description: null
           m_annotations:
             eln:
               component: StringEditQuantity

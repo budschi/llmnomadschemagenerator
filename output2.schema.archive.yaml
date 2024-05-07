@@ -1,0 +1,14 @@
+definitions:
+  name: MyExperiment
+  sections:
+    MyExperiment:
+      base_sections:
+      - nomad.datamodel.data.EntryData
+      quantities:
+        pressure:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: np.float64
+          unit: mbar
