@@ -22,6 +22,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
+    "streamlit",
+    "git+https://github.com/nomad-coe/nomad.git",
+    "langchain-core",
+    "langchain-community",
+    "jupyter",
+
 ]
 
 [project.optional-dependencies]

@@ -1,4 +1,6 @@
-git+https://github.com/nomad-coe/nomad.git
+nomad-lab[infrastructure]
 langchain-core 
 langchain-community
 jupyter
+streamlit
+lxml[html_clean]
