@@ -19,3 +19,4 @@
 !*/**/*.json
 !*.ipynb
 !*/**/*.ipynb
+!*.toml
