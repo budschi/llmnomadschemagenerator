@@ -4,10 +4,8 @@ import json
 
 def get_llm_generated_schema(pdf="/home/rubel/Downloads/delete_2/papers/152101_1_online.pdf", 
               yaml_schema="/home/rubel/Downloads/delete_2/schema.yaml"):
-    nomad_schema = """
-
-    This is a yaml schema following a specific structure.
-
+    nomad_schema = (
+    """
     definitions:
     name: 'MOVPE Experiment (IKZ Ga2O3)'
     sections:
@@ -1258,7 +1256,7 @@ def get_llm_generated_schema(pdf="/home/rubel/Downloads/delete_2/papers/152101_1
                 eln:
                 component: ReferenceEditQuantity
                 label: 'SubstratePreparationSteps Reference'
-"""
+""")
     prompt = ("Could you please create a schema from the text from research paper below? \n")
 
     paper_pdf_ = "/home/rubel/Downloads/delete_2/papers/152101_1_online.pdf"
@@ -1277,8 +1275,10 @@ def get_llm_generated_schema(pdf="/home/rubel/Downloads/delete_2/papers/152101_1
     seed = 42
     options = {"temperature": 0.5}
     stream = False
-    final_prompt = doc_text + "\n" + prompt + "\n" + nomad_schema
-    print(doc_text + "\n" + "==============\n" + prompt + "\n" + nomad_schema)
+    final_prompt = (f"""This is the yaml schema (say exampple) created from text from research based paper \n{nomad_schema}\n
+Here is the text from the research paper: \n{doc_text}.\n
+Please create a schema follwong the same structure as in example from the text above. \n""")
+    # print(doc_text + "\n" + "==============\n" + prompt + "\n" + nomad_schema)
 
     response = requests.post(url, json={
         "model": model,
