@@ -1,0 +1,86 @@
+definitions:
+  sections:
+    - base_sections:
+      nomad.datamodel.data.ArchiveSection
+      description: 'A generic abstract base section that provides a few commonly used properties.'
+      links:
+        - http://purl.obolibrary.org/obo/BFO_0000001
+      name: BaseSection
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the entity
+        timestamp:
+          type: integer
+          description: Timestamp when the data was collected
+        location:
+          type: object
+          properties:
+            latitude:
+              type: number
+              description: Latitude of the location
+            longitude:
+              type: number
+              description: Longitude of the location
+            altitude:
+              type: number
+              description: Altitude of the location (optional)
+          required:
+            - latitude
+            - longitude
+        sensors:
+          type: array
+          items:
+            type: object
+            properties:
+              sensor_id:
+                type: string
+                description: Unique identifier for the sensor
+              measurement_type:
+                type: string
+                description: Type of measurement (e.g. temperature, humidity)
+              value:
+                type: number
+                description: Measured value
+              unit:
+                type: string
+                description: Unit of measurement (optional)
+            required:
+              - sensor_id
+              - measurement_type
+              - value
+        weather_conditions:
+          type: object
+          properties:
+            temperature:
+              type: number
+              description: Temperature in degrees Celsius
+            humidity:
+              type: number
+              description: Humidity in percentage
+            wind_speed:
+              type: number
+              description: Wind speed in meters per second (optional)
+          required:
+            - temperature
+            - humidity
+        image_data:
+          type: object
+          properties:
+            image_url:
+              type: string
+              description: URL of the image
+            image_features:
+              type: array
+              items:
+                type: object
+                properties:
+                  feature_name:
+                    type: string
+                    description: Name of the image feature (e.g. shape, color)
+                  value:
+                    type: number
+                    description: Value of the image feature
+                required:
+                  - feature_name
+                  - value

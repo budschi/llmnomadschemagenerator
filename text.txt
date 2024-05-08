@@ -1,0 +1,511 @@
+
+View
+Online
+Export
+CitationRESEARCH ARTICLE| APRIL 12 2022
+Two inch diameter , highly conducting bulk β-Ga2O3 single
+crystals grown by the Czochralski method 
+Special Collection:  Wide- and Ultrawide-Bandgap Electronic Semiconductor Devices
+Zbigniew Galazka  
+ ; Steffen Ganschow  
+ ; Palvan Seyidov  
+ ; Klaus Irmscher  
+ ; Mike Pietsch ;
+Ta-Shun Chou  
+ ; Saud Bin Anooz  
+ ; Raimund Grueneberg ; Andreas Popp  
+ ; Andrea Dittmar ;
+Albert Kwasniewski ; Manuela Suendermann ; Detlef Klimm  
+ ; Thomas Straubinger ; Thomas Schroeder ;
+Matthias Bickermann  
+Appl. Phys. Lett.  120, 152101 (2022)
+https://doi.org/10.1063/5.0086996
+ 07 May 2024 08:51:29Two inch diameter, highly conducting bulk
+b-Ga 2O3single crystals grown by the Czochralski
+method
+Cite as: Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996
+Submitted: 31 January 2022 .Accepted: 1 April 2022 .
+Published Online: 12 April 2022
+Zbigniew Galazka,1,a)
+Steffen Ganschow,1
+Palvan Seyidov,1
+Klaus Irmscher,1
+Mike Pietsch,1
+Ta-Shun Chou,1
+Saud Bin Anooz,1
+Raimund Grueneberg,1Andreas Popp,1
+Andrea Dittmar,1
+Albert Kwasniewski,1Manuela Suendermann,1Detlef Klimm,1
+Thomas Straubinger,1Thomas Schroeder,1,2
+and Matthias Bickermann1,3
+AFFILIATIONS
+1Leibniz-Institut f €ur Kristallz €uchtung, Max-Born-Str.. 2, 12489 Berlin, Germany
+2Humboldt-Universit €at zu Berlin, Institut f €ur Physik, Newtonstr. 15, 12489 Berlin, Germany
+3Technische Universit €at Berlin, Institut f €ur Chemie, Straße des 17. Juni 115, 10623 Berlin, Germany
+Note: This paper is part of the APL Special Collection on Wide- and Ultrawide-Bandgap Electronic Semiconductor Devices.
+a)Author to whom correspondence should be addressed: zbigniew.galazka@ikz-berlin.de
+ABSTRACT
+Two inch diameter, highly conducting (Si-doped) bulk b-Ga 2O3single crystals with the cylinder length up to one inch were grown by the
+Czochralski method. The obtained crystals revealed high structural quality characterized by narrow x-ray rocking curves (FWHM /C2025 arc sec)
+and high surface smoothness (RMS <200 pm) of the epi-ready wafers. The free electron concentration and Hall mobility at room temperature
+were in the range of 1.6–9 /C21018cm/C03and 118 – 52 cm2V/C01s/C01, respectively, which are not affected by a heat treatment at temperatures up to
+1000/C14C in an oxidizing atmosphere. Temperature-dependent electrical properties of the crystals revealed a degenerated semiconducting state.
+Both high structural quality and electrical properties make the crystals well suited as substrates for homoepitaxy and electronic device fabricati on
+in the vertical conﬁguration.
+VC2022 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution (CC BY) license ( http://
+creativecommons.org/licenses/by/4.0/ ).https://doi.org/10.1063/5.0086996
+b-Ga 2O3with its unique combination of great electrical and opti-
+cal properties is considered to be a future material in high power elec-
+tronics and UV optoelectronics. This is the result of a large bandgap of
+4.85 eV1and a high theoretical breakdown ﬁeld of 8 MV/cm.2Indeed,
+in the last decade, there has been a signiﬁcant and substantial b-Ga 2O3
+development in terms of the growth of bulk crystals, e.g., Refs. 3–12 ,
+and thin ﬁlms, e.g., Refs. 13–23 , as well as various device demonstra-
+tors, e.g., Refs. 2and 24–32 . Remarkable research on the above-
+mentioned aspects of b-Ga 2O3has been summarized in a number of
+review articles and books.33–47Particular attention is paid to high
+power switching devices that are economical and environmentally
+friendly. These requirements can potentially be met by b-Ga 2O3-based
+Schottky barrier diodes (SBDs) and ﬁeld effect transistors (FETs).
+Inb-Ga 2O3-based SBDs and FETs in the vertical conﬁguration,
+which can switch higher voltages as compared to the lateral conﬁgura-
+tion (due to better exploitation of the breakdown ﬁeld), the substratefunctions as an electrode for an epitaxial drift layer; therefore, it should
+have high conductivity represented by the free electron concentration
+>1018cm/C03and resistivity on the order of 10/C02Xcm. The substrates
+should also be of high structural quality to get high quality epitaxialﬁlms (drift layers) thereon, as structural defects have an impact on the
+electrical properties of the ﬁlms and operation of the electronic devi-
+ces, such as SBDs.
+48–51
+Availability of large wafers, minimum 2 in. diameter, is required
+for device fabrication at the industrial level. Indeed, 2 and 4 in. diame-
+ter wafers of b-Ga 2O3have been commercialized,52and 6 in. diameter
+wafers were demonstrated53with the use of the EFG method. So far,ter wafers of b-Ga 2O3have been commercialized,52and 6 in. diameter
+wafers were demonstrated53with the use of the EFG method. So far,
+large diameter wafers, both electrically conducting and semi-insulating, can be fabricated with orientations ð
+201Þand (001); how-
+ever, other orientations are available in smaller sizes, e.g., the size of
+(010) wafers is limited by the cross section of the EFG-grown crystal
+slabs, and it is 10 /C215 mm2.52On the other hand, 2 in. diameter
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-1
+VCAuthor(s) 2022Applied Physics Letters ARTICLE scitation.org/journal/apl 07 May 2024 08:51:29(010)-oriented wafers can be prepared from 2 in. diameter cylindrical
+crystals grown by the Czochralski5,6,8,9,36,47,54,55and Bridgman12meth-
+ods. Such wafer orientation showed the highest growth rate (due to
+strong bonds to the surface) of homoepitaxial thin ﬁlms grown by the
+Molecular Beam Epitaxy.19,21,56Although electrically insulating or
+semi-insulating b-Ga 2O3crystals of 2 in. diameter can be grown by
+the Czochralski method as long cylinders ( >2i n . ) ,6,8,47highly con-
+ducting crystals encounter length limitation due to free carrier
+absorption.5,8,47,54,57
+In this report, we highlight the capability of growing 2 in. diame-
+ter, highly conducting bulk b-Ga 2O3single crystals grown by the
+Czochralski method, including their basic structural quality and elec-
+trical properties that are suitable for electronic device fabrication in the
+vertical conﬁguration.
+Details of the growth of bulk b-Ga 2O3single crystals by the
+Czochralski method with the use of inductively heated Ir crucibles,
+including thermodynamics and free carrier absorption issues, as well
+as different doping we have already reported in numerous
+articles.5–8,55,57–59Here, the initial Si concentration in the starting
+material was 0.15–0.2 mol. %, which is sufﬁcient to induce the free
+electron concentration (n e)i nt h ec r y s t a l so f1 018–1019cm/C03.S o m eo f
+the crystals were also co-doped with Al at initial concentrations in the
+starting material of 1, 2.5, and 5 mol. % to enlarge the bandgap. Theequilibrium segregation coefﬁcient for Si and Al in the Ga
+2O3melt is
+about 0.1 and 1.1, respectively.7The oxygen concentration in the
+growth atmosphere, necessary to minimize the formation of elemental
+Ga in the melt, was between 14 and 20 vol.%. The growth and rotation
+rates were 1.5 mm/h and 5 rpm, while the growth direction was paral-
+lel to the h010icrystallographic direction.
+As stated above, we could easily reach a cylinder length exceeding
+2 in. for 2 in. diameter, semi-insulating b-Ga 2O3crystals (Mg-doped).
+The situation drastically changes in the case of highly electrically con-
+ducting crystals, where the free carrier absorption has a huge impact
+on the growth stability. Shortly, latent heat of crystallization, which is
+dissipated away through a growing crystal via radiation in the near-
+infrared (NIR) region, is absorbed by the free electrons and cannot be
+easily removed from the crystal. After reaching a certain length, heat
+accumulation rate exceeds the heat dissipation rate and the tempera-
+ture near the growth interface increases. Once it reaches the melting
+point of Ga 2O3, there is an interface inversion from convex (stable) to
+concave (unstable). The crystal cannot grow vertically as a cylinder
+any longer, and it forms a corkscrew (spiral) with windings extending
+beyond the cylinder. Such conﬁguration enables easy heat dissipation(small thickness of the windings facing higher temperature gradients).
+Generally, the spiral formation in high-melting point oxides
+(>1600
+/C14C, when radiative heat transport dominates over conductive
+one) grown by the Czochralski method is a known phenomenon that
+arises from the heat absorption caused by one or more absorption
+bands.60–63The symmetry breaking and consequently spiral formation
+after interface inversion (highly unstable growth environment) may
+have different triggers, such as non-uniform temperature gradients
+around the interface, melt ﬂow instability (baroclinic or Marangoni),
+and asymmetry of thermal conductivity across the interface, faceting.
+In the case of b-Ga 2O3crystals, the heat absorption is caused by free
+electrons, which is continuum over the NIR spectral region. Detailed
+discussion on the spiral formation during growth of b-Ga 2O3crystals
+by the Czochralski method is available elsewhere.5,47,54,55,58This is why highly conducting bulk b-Ga 2O3crystals grown by
+the Czochralski method are relatively short, typically about 2 cm forboth 2 cmthe Czochralski method are relatively short, typically about 2 cm forboth 2 cm
+57a n d2 i n .d i a m e t e rc r y s t a l ss h o w ni n Fig. 1(a) . Although
+Al co-doping (5 mol. %) increased the cylinder length of 2 cm diame-
+ter crystals by about 50%,57this is not the case for 2 in. diameter
+crystals [ Fig. 1(b) ], due to much larger optical thickness of the former.
+Also, higher O 2concentration in the growth atmosphere [ Fig. 1(c) ]
+did not increase the cylinder length, which is still about 2 cm.Applying He in the growth atmosphere,
+64which has a high thermal
+conductivity, increased the crystal length to 2.5 cm [ Fig. 1(d) ]. In each
+case, the cylinder length is sufﬁcient to fabricate a number of highlyconducting 1 or 2 in. diameter (010)-oriented wafers.
+Most of the Si-doped crystals (only a few are shown in Fig. 1 )
+were twin- and grain-free, others had 1 or 2 twins parallel to the {100}plane. Occasionally, small polycrystalline grains occurred. The bluecoloration of the crystals is the result of the free carrier absorption that
+extends into the red part of the visible spectrum. This can be recog-
+nized from transmittance spectra reported elsewhere.
+5,47,57
+The primary wafer orientation for homoepitaxial growth by
+MOVPE, prepared from Czochralski-grown bulk b-Ga 2O3crystals, is
+(100) with an offcut of 2/C14–6/C14toward the 00 1½/C138 direction ( Fig. 2 )t o
+avoid the formation of twin lamellae and achieve step ﬂow growthmode by MOVPE as described in detail by Schewski et al.,
+14,65Fiedler
+et al. ,66Bin Anooz et al. ,15,67,68and Chou et al.16After surface treat-
+ment of the fabricated wafers, ﬁrst by a wet chemical etching step withphosphoric acid to remove the damage layer resulting from polishingfollowed by an annealing step in O
+2at 900/C14C for 60 min, the
+RMS roughness was typically between 150 and 200 pm15also shown
+inFig. 2 .
+Such heat treatment to obtain epi-ready wafers does not affect
+their electrical properties. We observed, through annealing experi-
+ments depicted in Fig. 3 , an increase in the resistivity by more than
+one order of magnitude only after annealing in the oxidizing atmo-sphere (air) at minimum 1000
+/C14C for at least several hours (here 20 h).
+This is valid for both 2 cm and 2 in. diameter and for both Si- and
+SiþAl-doped crystals, which all show the same trend. In Ref. 5,w e
+reported that in the case of undoped b-Ga 2O3crystals (free electron
+FIG. 1. Two inch diameter, Si-doped bulk b-Ga 2O3single crystals grown by the
+Czochralski method at different conditions. Dopant concentrations (Si and Al) relateto initial concentrations in the starting material.Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-2
+VCAuthor(s) 2022 07 May 2024 08:51:29concentration, n e<1018cm/C03) annealing at high temperatures
+(/C211200/C14C) creates a thin electrically insulating layer on a sample sur-
+face, while the bulk conductivity decreases by about an order of mag-
+nitude. The latter is due to hydrogen removal that have a high
+contribution in the electrical conductivity, as we reported elsewhere.7
+Here, by intentional doping with Si, such insulating layer was rathernot formed upon annealing, or it was thinner than the Ohmic contactthickness for Hall effect measurements. The increase in the resistivity
+after annealing at high temperatures is due to a decrease in the free
+electron concentration associated with hydrogen removal at high tem-peratures (acting as a shallow donor) and next by compensation of aportion of Si by gallium vacancies (acting as deep acceptors), the con-
+centration of which increase with oxygen partial pressure during
+growth.
+69The resistivity of all, highly conducting crystals studied here,
+remains substantially intact for annealing temperatures below1000
+/C14C. This means that neither the surface heat treatment nor the
+growth temperature by MOVPE ( <850/C14C) will affect the electrical
+properties of highly conducting Si-doped b-Ga 2O3wafers.
+Figure 4(a) shows x-ray rocking curves of Si-doped b-Ga 2O3
+(100) samples as-cleaved from 3 different, 2 in. diameter, Si-doped
+b-Ga 2O3crystals. Full widths at half maximum (FWHM) values, even
+below 20 arc sec, indicate the capability of obtaining high structuralquality samples or wafers for epitaxy. They do not show shoulders that
+would indicate the presence of low-angle grains or twin boundaries.FWHM values of the epi-ready (100) 4
+/C14off oriented wafers were
+between 25 and 35 arc sec.55Co-doping 2 in. diameter crystals with Al
+(5 mol. %) resulted in a bit broader rocking curve of FWHM ¼33 arc
+sec [Fig. 4(b) ]. An Al incorporation into the b-Ga 2O3crystals lattice
+causes easier formation of oxygen-related point defects (lower forma-tion energy) and larger lattice distortion.
+70Si-doped, 2 cm diameter
+b-Ga 2O3crystal revealed yet broader rocking curve of FWHM
+¼46 arc sec [ Fig. 4(b) ]. Simply, Si-doped crystals of small diameter
+(2 cm) were grown at much lower oxygen concentration (1–4 vol. %)
+in the growth atmosphere as compared with large diameter crystals(2 in.) shown in Fig. 1 . This may lead to a higher density of point
+defects (especially oxygen vacancies) as the result of the thermal
+decomposition of the melt and larger density of structural defects, like
+dislocations (for thermodynamics of Ga
+2O3and impact of oxygen
+concentration in the growth atmosphere on the crystal growth stabil-
+ity, see e.g., Ref. 55).
+A relation between free electron (measured by Hall effect, system
+HMS 7504 Lake Shore, see details e.g., in Ref. 71) and Si (measured by
+Inductively Coupled Plasma Optical Emission Spectroscopy, ICP-
+OES, system Thermo Fisher Scientiﬁc, iCap7400) concentrations of
+Si-doped b-Ga 2O3crystals is shown in Fig. 5 . An approximately 1:1
+relation indicates almost full activation of Si in the crystals, similar tosmaller diameter crystals.
+7Occasional deviation from this relation
+arises from a nonuniform radial and axial Si distribution due to segre-
+gation phenomenon (low segregation coefﬁcient /C250.1). Because the
+crystallization ratio is rather small (about 15%), the axial Si segregation
+supposed to be small; however, it might be larger at regions of large
+changes in the interface shape, in particular, in the region of the inter-
+face inversion. On the other hand, changes in the interface shape willinduce some radial Si segregation, which may differ between crystals.
+Here, in highly conducting crystals, a possible contribution of hydro-
+gen in the free electron concentration, which is visible at smaller n
+e
+values ( <1018cm/C03),7does not play a signiﬁcant role, as it is governedgen in the free electron concentration, which is visible at smaller n
+e
+values ( <1018cm/C03),7does not play a signiﬁcant role, as it is governed
+by the Si concentration. The same relates to trace impurities, such asIr, Fe, Al, Ca, Mg, and Zr (determined by ICP-OES), which are always
+found in bulk b-Ga
+2O3crystals grown by the Czochralski method
+with a typical concentration of around or below 1017cm/C03each.55,72
+2 in. diameter, Si-doped b-Ga 2O3single crystals revealed free
+electron concentration (n e), electron mobility, and resistivity from
+Hall effect measurements at room temperature (RT) in the ranges of
+1.6–9 /C21018cm/C03,1 1 8–5 2 c m2V/C01s/C01,a n d4–1 /C210/C02Xcm,
+respectively. We noticed, however, that n evalues may differ within an
+as-grown crystal by factor of 2–3, which might be correlated with
+changes in the interface shape and associated differences in Si incorpo-
+ration. Annealing at elevated temperatures ( <1000/C14C) made the ne
+values and resistivity more uniform (see Fig. 3 ).Figure 6 shows a rela-
+tion between Hall electron mobility and free electron concentration
+for 2 in. diameter Si- and Si þAl-doped b-Ga 2O3single crystals, in
+comparison with 2 cm diameter ones. At n e>1018cm/C03, all the crys-
+tals show a dominant electron scattering at ionized impurities.73
+Comparing both diameter crystals, it is clear that an average Hall elec-
+tron mobility is higher for 2 in. diameter crystals at similar n evalues,
+which is likely due to a better structural quality of the samples from
+larger crystals (for comparison see rocking curves in Fig. 4 ). The Hall
+electron mobility for Al co-doped 2 in. diameter crystals is in average
+lower than in those doped with Si only, which was already observed
+for 2 cm diameter crystals.57This is likely due to above-mentioned
+FIG. 3. Resistivity vs annealing temperature of 2 cm and 2 in., Si- and (Si þAl)-
+doped bulk b-Ga 2O3single crystals grown by the Czochralski method. D and t in
+the ﬁgure are crystal diameter and annealing time, respectively, while mol.% indi-cates a dopant concentration in the melt. The thickness of the samples was0.5 mm, typical for epitaxial purposes.
+FIG. 2. (100) 4/C14off oriented, 10 /C210 mm2wafers (single side polished) prepared
+from 2 in. diameter Si-doped b-Ga 2O3crystals (left) and AFM image of the epi-
+ready wafer’s surface (100) 4/C14off (right).Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-3
+VCAuthor(s) 2022 07 May 2024 08:51:29lattice distortion, which leads to a larger scattering of free electrons
+and, thus, electron mobility reduction.
+Figure 7 shows the temperature-dependent (22–300 K) resistivity
+and free electron concentration of Si-doped b-Ga 2O3single crystals
+having different n evalues at RT (measured by Hall effect with the use
+of a closed-cycle refrigerator cryostat). For very low Si doping level,
+resulting in n e¼5/C21017cm/C03at RT, the relation is typical for normal
+semiconductors. For higher Si doping level and n e¼5/C21018cm/C03at
+RT, the behavior is typical for degenerate semiconductors, as both theresistivity and n
+eare basically temperature independent (metallic-like
+conductivity). Between these n evalues, i.e., for n e¼2.2 and 3.5
+/C21018cm/C03at RT ( Fig. 7 ), we can observe a very weak dependence
+indicating a semiconductor–metal transition region (Mott transition),
+which match previously reported values (n e¼3–5/C21018cm/C03)f o r
+b-Ga 2O3.74,75
+Similar relations, but for a temperature range of 300–600 K, are
+shown in Fig. 8 (measured by Hall effect with the use of an oven mod-
+ule). In each case, the resistivity ( q) increases by a factor of about 2 at
+600 K [ Fig. 8(a) ]. As can be seen in Fig. 8(b) , there is only a minor
+increase in the free electron concentration (n e) as basically all shallowdonors had been ionized at around RT. At higher temperatures,
+deeper electron traps are being depopulated and release electrons thatcontribute to the electrical conductivity. The factor that increases theresistivity above RT is a decrease in the Hall electron mobility ( l
+e),
+also by a factor of about 2 ðq/C241
+neleÞ.T h i si sd u et oah i g h e ra m p l i t u d e
+of lattice vibrations, which enhance scattering of the free electrons at
+phonons. The scattering is higher at higher free electron concentration,which is well visible in Fig. 8(b) for two samples with the highest n
+e
+values (3.5 and 5 /C21018cm/C03). Such factor of resistivity increase in b-
+Ga2O3is typical for metals in the same temperature range.
+Two inch diameter bulk b-Ga 2O3single crystals of high electrical
+conductivity, achieved by Si-doping, were grown by the Czochralskimethod. Crystal samples showed high structural quality (FWHM ofthe rocking curve /C2025 arc sec) and good surface smoothness (RMS
+<200 pm) after polishing and surface treatment. The free electron
+concentration, Hall mobility, and resistivity at RT were in the range of
+1.6–9 /C210
+18cm/C03,1 1 8 – 5 2 c m2V/C01s/C01, and 4 – 1 /C210/C02Xcm,
+respectively. The electrical properties are not affected by a heat
+FIG. 4. X-ray rocking curves of (100)-oriented samples prepared from (a) 3 different, 2 in. diameter, Si-doped b-Ga 2O3crystals, (b) 2 in. diameter doped with Si þAl and 2 cm
+diameter doped with Si. The slit width was 0.2 mm.
+FIG. 5. Free electron concentration vs Si concentration (log-log scale) in
+Czochralski-grown, Si-doped b-Ga 2O3single crystals.
+FIG. 6. Hall electron mobility vs free electron concentration in the log-log scale for
+2 in. diameter Si-doped (blue triangles) and Si þAl-doped (black squares) in com-
+parison with 2 cm diameter Si-doped (red circles) bulk b-Ga 2O3single crystals
+grown by the Czochralski method.Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-4
+VCAuthor(s) 2022 07 May 2024 08:51:29treatment in the presence of oxygen at temperatures up to 1000/C14C.
+Highly conducting crystals revealed a degenerated semiconducting state,
+as concluded from temperature-dependent electrical properties. High
+temperature electrical properties revealed an increase in the resistivity
+by a factor of two at 600 K. Both the structural quality and electrical
+properties make the crystals well suited as substrates for homoepitaxy
+a n de l e c t r o n i cd e v i c ef a b r i c a t i o ni nt h ev e r t i c a lc o n ﬁ g u r a t i o n .
+This work was funded by the Bundesministerium f €ur Bildung
+und Forschung (BMBF) project under Grant No. 16ES1084K. It
+was partly performed in the framework of GraFOx, a Leibniz-
+Science Campus partially funded by the Leibniz Association—
+Germany. The authors express their gratitude to Dr. Frank M.
+Kießling from the Leibniz-Institut f €ur Kristallz €uchtung (IKZ) for
+critical reading of the manuscript. Thomas Wurche, Dr. Uta Juda,
+and Manuela Imming-Friedland (IKZ) are acknowledged for
+preparation of some of the crystal samples used in this study.
+AUTHOR DECLARATIONS
+Conflict of Interest
+The authors have no conﬂicts to disclose.DATA AVAILABILITY
+The data that support the ﬁndings of this study are available
+within the article.
+REFERENCES
+1C. Janowitz, V. Scherer, M. Mohamed, A. Krapf, H. Dwelk, R. Manzke, Z.
+Galazka, R. Uecker, K. Irmscher, R. Fornari, M. Michling, D. Schmeißer, J. R.Weber, J. B. Varley, and C. G. Van de Walle, New J. Phys. 13, 085014 (2011).
+2M. Higashiwaki, K. Sasaki, A. Kuramata, T. Masui, and S. Yamakoshi, Appl.
+Phys. Lett. 100, 013504 (2012).
+3H. Aida, K. Nishiguchi, H. Takeda, N. Aota, K. Sunakawa, and Y. Yaguchi,
+Jpn. J. Appl. Phys., Part 1 47, 8506–8509 (2008).
+4A. Kuramata, K. Koshi, S. Watanabe, Y. Yamaoka, T. Masui, and S.
+Yamakoshi, Jpn. J. Appl. Phys., Part 1 55, 1202A2 (2016).
+5Z. Galazka, K. Irmscher, R. Uecker, R. Bertram, M. Pietsch, A. Kwasniewski,
+M. Naumann, T. Schulz, R. Schewski, D. Klimm, and M. Bickermann, J. Cryst.
+Growth 404, 184–191 (2014).
+6Z. Galazka, R. Uecker, D. Klimm, K. Irmscher, M. Naumann, M. Pietsch, A.
+Kwasniewski, R. Bertram, S. Ganschow, and M. Bickermann, ECS J. Solid State
+Sci. Technol. 6, Q3007–Q3011 (2017).
+7Z. Galazka, K. Irmscher, R. Schewski, I. M. Hanke, M. Pietsch, S. Ganschow,
+D. Klimm, A. Dittmar, A. Fiedler, T. Schroeder, and M. Bickermann, J. Cryst.
+Growth 529, 125297 (2020).
+FIG. 7. Temperature-dependent resistivity (a) and free electron concentration (b) from Hall effect measurements of Si-doped b-Ga 2O3samples prepared from Czochralski-
+grown crystals.
+FIG. 8. High temperature-dependent resistivity (a) and free electron concentration (b) from Hall effect measurements of Si-doped b-Ga 2O3samples prepared from
+Czochralski-grown crystals.Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-5
+VCAuthor(s) 2022 07 May 2024 08:51:298Z. Galazka, S. Ganschow, K. Irmscher, D. Klimm, M. Albrecht, R. Schewski,
+M. Pietsch, T. Schulz, A. Dittmar, A. Kwasniewski, R. Grueneberg, S. Bin
+Anooz, A. Popp, U. Juda, I. M. Hanke, T. Schroeder, and M. Bickermann,
+Prog. Cryst. Growth Charact. Mater. 67, 100511 (2021).
+9J. D. Blevins, K. Stevens, G. Foundos, A. Lindsey, and L. Sande, IEEE Trans.
+Semicond. Manuf. 32, 466–472 (2019).
+10K. Hoshikawa, E. Ohba, T. Kobayashi, J. Yanagisawa, C. Miyagawa, and Y.
+Nakamura, J. Cryst. Growth 447, 36–41 (2016).
+11E. Ohba, T. Kobayashi, T. Taishi, and K. Hoshikawa, J. Cryst. Growth 556,
+125990 (2021).
+12K. Hoshikawa, T. Kobayashi, E. Ohba, and T. Kobayashi, J. Cryst. Growth 546,
+125778 (2020).
+13M. Baldini, M. Albrecht, A. Fiedler, K. Irmscher, R. Schewski, and G. Wagner,
+ECS J. Solid State Sci. Technol. 6, Q3040–Q3044 (2017).
+14R. Schewski, K. Lion, A. Fiedler, C. Wouters, A. Popp, S. V. Levchenko, T.
+Schulz, M. Schmidbauer, S. Bin Anooz, R. Gruneberg, Z. Galazka, G. Wagner,
+K. Irmscher, M. Schefﬂer, C. Draxl, and M. Albrecht, APL Mater. 7, 022515
+(2019).
+15S. Bin Anooz, R. Gruneberg, C. Wouters, R. Schewski, M. Albrecht, A. Fiedler,
+K. Irmscher, Z. Galazka, W. Miller, G. Wagner, J. Schwarzkopf, and A. Popp,
+Appl. Phys. Lett. 116, 182106 (2020).
+16T.-S. Chou, P. Seyidov, S. Bin Anooz, R. Gr €uneberg, T. T. V. Tran, K. Irmscher,
+M. Albrecht, Z. Galazka, J. Schwarzkopf, and A. Popp, AIP Adv. 11, 115323
+(2021).
+17Z. Feng, A. F. M. A. U. Bhuiyan, Z. Xia, W. Moore, Z. Chen, J. F. McGlone, D.R. Daughton, A. R. Arehart, S. A. Ringel, S. Rajan, and H. Zhao, Phys. Status
+Solidi RRL 14, 2000145 (2020).
+18P. Vogt and O. Bierwagen, Appl. Phys. Lett. 108, 072101 (2016).
+19Y. Oshima, E. Ahmadi, S. Kaun, F. Wu, and J. S. Speck, Semicond. Sci. Technol.
+33, 015013 (2018).
+20S.-H. Han, A. Mauze, E. Ahmadi, T. Mates, Y. Oshima, and J. S. Speck,
+Semicond. Sci. Technol. 33, 045001 (2018).
+21P. Mazzolini, A. Falkenstein, C. Wouters, R. Schewski, T. Markurt, Z. Galazka,
+M. Martin, M. Albrecht, and O. Bierwagen, APL Mater. 8, 011107 (2020).
+22S. Raﬁque, M. R. Karim, J. M. Johnson, J. Hwang, and H. Zhao, Appl. Phys.
+Lett. 112, 052104 (2018).
+23K. Goto, K. Konishi, H. Murakami, Y. Kumagai, B. Monemar, M. Higashiwaki,
+A. Kuramata, and S. Yamakoshi, Thin Solid Films 666, 182–184 (2018).
+24M. Higashiwaki, H. Murakami, Y. Kumagai, and A. Kuramata, Jpn. J. Appl.
+Phys., Part 2 55, 1202A1 (2016).
+25M. H. Wong, K. Sasaki, A. Kuramata, S. Yamakoshi, and M. Higashiwaki, IEEE
+Electron Device Lett. 37, 212–215 (2016).
+26A. J. Green, K. D. Chabak, E. R. Heller, R. C. Fitch, M. Baldini, A. Fiedler, K.
+Irmscher, G. Wagner, Z. Galazka, S. E. Tetlak, A. Crespo, K. Leedy, and G. H.
+Jessen, IEEE Electron Device Lett. 37, 902–905 (2016).
+27N. Moser, K. Liddy, A. Islam, N. Miller, K. Leedy, T. Asel, S. Mou, A. Green,
+and K. Chabak, Appl. Phys. Lett. 117, 242101 (2020).
+28Z. Xia, H. Xue, C. Joishi, J. McGlone, N. K. Kalarickal, S. H. Sohel, M. Brenner,
+A. Arehart, S. Ringel, S. Lodha, W. Lu, and S. Rajan, IEEE Electron Device Lett.
+40, 1052–1055 (2019).
+29N. K. Kalarickal, Z. Xia, H.-L. Huang, W. Moore, Y. Liu, M. Brenner, J.
+Hwang, and S. Rajan, IEEE Electron Device Lett. 42, 899–902 (2021).
+30Z. Hu, K. Nomoto, W. Li, Z. Zhang, N. Tanen, Q. T. Thieu, K. Sasaki, A.
+Kuramata, T. Nakamura, D. Jena, and H. G. Xing, Appl. Phys. Lett. 113,
+122103 (2018).
+31K. Tetzner, E. Bahat Treidel, O. Hilt, A. Popp, S. Bin Anooz, G. Wagner, A.Thies, K. Ickert, H. Gargouri, and J. W €urﬂ, IEEE Electron Device Lett. 40,
+1503–1506 (2019).
+32M. A. Mastro, M. J. Tadjer, J. Kim, F. Ren, and S. J. Pearton, J. Vac. Sci.
+Technol. A 39, 023412 (2021).
+33M. Higashiwaki, K. Sasaki, H. Murakami, Y. Kumagai, A. Koukitu, A.
+Kuramata, T. Masui, and S. Yamakoshi, Semicond. Sci. Technol. 31, 034001
+(2016).
+34S. I. Stepanov, V. I. Nikolaev, V. E. Bougrov, and A. E. Romanov, Rev. Adv.
+Mater. Sci. 44, 63–86 (2016).
+35M. A. Mastro, A. Kuramata, J. Calkins, J. Kim, F. Ren, and S. J. Peartong, ECS(2016).
+34S. I. Stepanov, V. I. Nikolaev, V. E. Bougrov, and A. E. Romanov, Rev. Adv.
+Mater. Sci. 44, 63–86 (2016).
+35M. A. Mastro, A. Kuramata, J. Calkins, J. Kim, F. Ren, and S. J. Peartong, ECS
+J. Solid State Sci. Technol. 6, P356–P359 (2017).36Z. Galazka, Semicond. Sci. Technol. 33, 113001 (2018).
+37M. Baldini, Z. Galazka, and G. Wagner, Mat. Sci. Semicond. Process. 78,
+132–146 (2018).
+38S. J. Pearton, J. Yang, P. H. Cary IV, F. Ren, J. Kim, M. J. Tadjer, and M. A.
+Mastro, Appl. Phys. Rev. 5, 011301 (2018).
+39M. Razeghi, J. H. Park, R. McClintock, D. Pavlidis, F. H. Teherani, D. J. Rogers,
+B. A. Magill, G. A. Khodaparast, Y. Xu, J. Wu, Vinayak, and P. Dravid, Proc.SPIE 10533 , 105330R1 (2018).
+40M. J. Tadjer, J. L. Lyons, N. Nepal, J. A. Freitas, Jr., A. D. Koehler, and G. M.
+Foster, ECS J. Solid State Sci. Technol. 8, Q3187–Q3194 (2019).
+41J. Zhang, J. Shi, D.-C. Qi, L. Chen, and K. H. L. Zhang, APL Mater. 8, 020906
+(2020).
+42R. Singh, T. R. Lenka, D. K. Panda, R. T. Velpula, B. Jain, H. Q. T. Bui, and H.
+P. T. Nguyen, Mater. Sci. Semicond. Process. 119, 105216 (2020).
+43M. H. Wong and M. Higashiwaki, IEEE Trans. Electron Devices 67, 3925–3937
+(2020).
+44C. Wang, J. Zhang, S. Xu, C. Zhang, Q. Feng, Y. Zhang, J. Ning, S. Zhao, H.
+Zhou, and Y. Hao, J. Phys. D 54, 243001 (2021).
+45Gallium Oxide: Technology, Devices and Applications , edited by S. Pearton, F.
+Ren, and M. Mastro (Elsevier, 2018).
+46Gallium Oxide: Crystal Growth, Materials Properties, and Devices , edited by M.
+Higashiwaki and S. Fujita (Springer Nature Switzerland AG, 2020).
+47Z. Galazka, Transparent Semiconducting Oxides—Bulk Crystal Growth and
+Fundamental Properties (Jenny Stanford Publishing, 2020).
+48M. Kasu, K. Hanada, T. Moribayashi, A. Hashiguchi, T. Oshima, T. Oishi, K.
+Koshi, K. Sasaki, A. Kuramata, and O. Ueda, Jpn. J. Appl. Phys., Part 1 55,
+1202BB (2016).
+49T. Oshima, A. Hashiguchi, T. Moribayashi, K. Koshi, K. Sasaki, A.
+Kuramata, O. Ueda, T. Oishi, and M. Kasu, Jpn. J. Appl. Phys., Part 1 56,
+086501 (2017).
+50S. Sdoeung, K. Sasaki, K. Kawasaki, J. Hirabayashi, A. Kuramata, T. Oishi, and
+M. Kasu, Appl. Phys. Lett. 117, 022106 (2020).
+51S. Sdoeung, K. Sasaki, S. Masuya, K. Kawasaki, J. Hirabayashi, A. Kuramata,
+and M. Kasu, Appl. Phys. Lett. 118, 172106 (2021).
+52Seewww.novelcrystal.co.jp for commercially available Ga 2O3substrates.
+53A. Kuramata, K. Koshi, S. Watanabe, and Y. Yamaoka, “Floating zone method,
+edge-deﬁned ﬁlm-fed growth method, and wafer manufacturing,” in Gallium
+Oxide: Crystal Growth, Materials Properties, and Devices edited by M.
+Higashiwaki and S. Fujita (Springer Nature Switzerland AG, 2020).
+54Z. Galazka, “Czochralski method,” in Gallium Oxide: Crystal Growth,
+Materials Properties, and Devices edited by M. Higashiwaki and S. Fujita
+(Springer Nature Switzerland AG, 2020), pp. 15–36.
+55Z. Galazka, J. Appl. Phys. 131, 031103 (2022).
+56K. Sasaki, A. Kuramata, T. Masui, E. G. V /C19ıllora, K. Shimamura, and S.
+Yamakoshi, Appl. Phys. Express 5, 035502 (2012).
+57Z. Galazka, R. Schewski, K. Irmscher, W. Drozdowski, M. E. Witkowski, M.
+Makowski, A. J. Wojtowicz, I. M. Hanke, M. Pietsch, T. Schulz, D. Klimm, S.
+Ganschow, A. Dittmar, A. Fiedler, T. Schroeder, and M. Bickermann, J. Alloys
+Compd. 818, 152842 (2020).
+58Z. Galazka, S. Ganschow, A. Fiedler, R. Bertram, D. Klimm, K. Irmscher, R.
+Schewski, M. Pietsch, M. Albrecht, and M. Bickermann, J. Cryst. Growth 486,
+82–90 (2018).
+59Z. Galazka, R. Uecker, K. Irmscher, M. Albrecht, D. Klimm, M. Pietsch, M.
+Br€utzam, R. Bertram, S. Ganschow, and R. Fornari, Cryst. Res. Technol. 45,
+1229–1236 (2010).
+60P. Naumowicz, K. Wieteska, S. Szarras, and J. Cinak, Krist. Tech. 16, 983–988
+(1981).
+61R. Uecker, H. Wilke, D. G. Schlom, B. Velickov, P. Reiche, A. Polity, M.Bernhagen, and M. Rossberg, J. Cryst. Growth 295, 84–91 (2006).
+62D. Schwabe, R. Uecker, M. Bernhagen, and Z. Galazka, J. Cryst. Growth 335,
+138–147 (2011).
+63D. G. Schwabe, Cryst. Res. Technol. 55, 1900073 (2020).62D. Schwabe, R. Uecker, M. Bernhagen, and Z. Galazka, J. Cryst. Growth 335,
+138–147 (2011).
+63D. G. Schwabe, Cryst. Res. Technol. 55, 1900073 (2020).
+64Z. Galazka, R. Uecker, D. Klimm, and M. Bickermann, EP 3242965 B1 (2019),
+US 11028501 B2 (2020), KR 101979130 (2019), JP 2020164415 A (2020).
+65R. Schewski, M. Baldini, K. Irmscher, A. Fiedler, T. Markurt, B. Neuschulz, T.Remmele, T. Schulz, G. Wagner, Z. Galazka, and M. Albrecht, J. Appl. Phys.
+120, 225308 (2016).Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-6
+VCAuthor(s) 2022 07 May 2024 08:51:2966A. Fiedler, R. Schewski, M. Baldini, Z. Galazka, G. Wagner, M. Albrecht, and
+K. Irmscher, J. Appl. Phys. 122, 165701 (2017).
+67S. Bin Anooz, A. Popp, R. Gr €uneberg, C. Wouters, R. Schewski, M.
+Schmidbauer, M. Albrecht, A. Fiedler, M. Ramsteiner, D. Klimm, K. Irmscher,Z. Galazka, and G. Wagner, J. Appl. Phys. 125, 195702 (2019).
+68S. Bin Anooz, R. Gr €uneberg, T.-S. Chou, A. Fiedler, K. Irmscher, C. Wouters,
+R. Schewski, M. Albrecht, Z. Galazka, W. Miller, J. Schwarzkopf, and A. Popp,J. Phys. D 54, 034003 (2021).
+69J. B. Varley, H. Peelaers, A. Janotti, and C. G. Van de Walle, J. Phys.: Condens.
+Matter 23, 334212 (2011).
+70X. Ma, Y. Zhang, L. Dong, and R. Jia, Results Phys. 7, 1582–1589 (2017).71Z. Galazka, K. Irmscher, M. Pietsch, S. Ganschow, D. Schulz, D. Klimm, I. M.
+Hanke, T. Schroeder, and M. Bickermann, J. Mater. Res. 36, 4746–4755
+(2021).
+72P. Seyidov, M. Ramsteiner, Z. Galazka, and K. Irmscher, J. Appl. Phys. 131,
+035707 (2022).
+73N. Ma, N. Tanen, A. Verma, Z. Guo, T. Luo, H. (Grace) Xing, and D. Jena,Appl. Phys. Lett. 109, 212101 (2016).
+74A. Fiedler, M. Ramsteiner, Z. Galazka, and K. Irmscher, Appl. Phys. Lett. 117,
+152107 (2020).
+75S. Raﬁque, L. Han, S. Mou, and H. Zhao, Opt. Mater. Express 7, 3561–3570
+(2017).Applied Physics Letters ARTICLE scitation.org/journal/apl
+Appl. Phys. Lett. 120, 152101 (2022); doi: 10.1063/5.0086996 120, 152101-7
+VCAuthor(s) 2022 07 May 2024 08:51:29
