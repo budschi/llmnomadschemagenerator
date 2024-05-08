@@ -183,7 +183,7 @@ if st.button('Generate Schema'):
             st.write(counter)
             result = invokechain("You produced the following schema:" + result + "\n It returned this error: " + str(error) + "Please fix the schema and try again.")
             #result = yaml.safe_load(ast.literal_eval(result))
-            with open('output2.schema.archive.yaml', 'w') as file:
+            with open('output.schema.archive.yaml', 'w') as file:
                 data = yaml.load(result, Loader=yaml.FullLoader)  # Use FullLoader to parse the YAML
                 yaml.dump(data, file, default_flow_style=False) 
             #try:
@@ -194,7 +194,7 @@ if st.button('Generate Schema'):
             error = None
             try:
                 # Replace this with the actual parse command
-                parse('output2.schema.archive.yaml')
+                parse('output.schema.archive.yaml')
                 break
             except Exception as e:
                 error = e
@@ -203,6 +203,15 @@ if st.button('Generate Schema'):
 
     st.text("``` \n" + result)
     #else:
+    # Download button
+with open('output.schema.archive.yaml', 'r') as file:
+    file_content = file.read()
+st.download_button(
+    label="Download output.schema.archive.yaml",
+    data=file_content,
+    file_name="output.schema.archive.yaml",
+    mime="application/x-yaml"
+)
         
 text = """
 Example input:
