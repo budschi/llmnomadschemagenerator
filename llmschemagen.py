@@ -2,6 +2,7 @@ from langchain_community.llms import Ollama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 import sys
+import os
 from nomad.client import parse, normalize_all
 import yaml
 import ast
@@ -151,7 +152,7 @@ It takes the user prompt, generates a yaml schema and prints it below if it
 was verified successfully to be a working NOMAD schema. 
 In case the LLM generates errors it will try to fix the schema and try again 
 up to 5 times. If it still fails, it will print the error message."""
-st.text(appdescription)
+st.markdown(appdescription)
 # Text input field
 # user_input = st.text_input("Please enter your input:")
 user_input = st.text_area("Enter your description of your experiment here:")
@@ -202,17 +203,60 @@ if st.button('Generate Schema'):
         # Display the result
 
     st.text("``` \n" + result)
-    #else:
+    # Parse the YAML file and extract the schema name
+schema_name = None
+
+try:
+    # Parse the YAML file and extract the schema name
+    with open('output.schema.archive.yaml', 'r') as file:
+        data = yaml.safe_load(file)
+    schema_name = data['definitions']['name']
+
+    # Rename the file
+    os.rename('output.schema.archive.yaml', f'{schema_name}.archive.yaml')
+except FileNotFoundError:
+    #st.error('File not found. Please generate the schema first.')
+    pass
+if schema_name:
     # Download button
-with open('output.schema.archive.yaml', 'r') as file:
-    file_content = file.read()
-st.download_button(
-    label="Download output.schema.archive.yaml",
-    data=file_content,
-    file_name="output.schema.archive.yaml",
-    mime="application/x-yaml"
-)
-        
+    with open(f'{schema_name}.archive.yaml', 'rb') as file:
+        file_content = file.read()
+    st.download_button(
+        label=f"Download *.yaml",
+        data=file_content,
+        file_name=f"{schema_name}.archive.yaml",
+        mime="application/x-yaml"
+    )
+# with open('output.schema.archive.yaml', 'r') as file:
+#     file_content = file.read()
+# st.download_button(
+#     label="Download output.schema.archive.yaml",
+#     data=file_content,
+#     file_name="output.schema.archive.yaml",
+#     mime="application/x-yaml"
+# )
+# Callback function
+# Rename button
+# if st.button('Rename Schema'):
+#     # Parse the YAML file and extract the schema name
+#     with open('output.schema.archive.yaml', 'r') as file:
+#         data = yaml.safe_load(file)
+#     schema_name = data['definitions']['name']
+
+#     # Rename the file
+#     os.rename('output.schema.archive.yaml', f'{schema_name}.yaml')
+
+#     # Open the renamed file and read its content
+#     with open(f'{schema_name}.yaml', 'rb') as file:
+#         file_content = file.read()
+
+#     # Download button
+#     st.download_button(
+#         label="Download schema",
+#         data=file_content,
+#         file_name=f"{schema_name}.yaml",
+#         mime="application/x-yaml"
+#    )
 text = """
 Example input:
 ```
