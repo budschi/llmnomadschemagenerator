@@ -1,26 +1,78 @@
 definitions:
-  name: MySinteringSchema
+  name: GeneratedSchema
   sections:
-    MySinteringData:
+    GeneratedSection:
       base_sections:
       - nomad.datamodel.data.EntryData
       quantities:
-        process_finished:
+        my_bool:
           description: null
           m_annotations:
             eln:
               component: BoolEditQuantity
           type: bool
-        temperature:
+        my_float:
           description: null
           m_annotations:
             eln:
               component: NumberEditQuantity
           type: np.float64
-          unit: percent
-        user:
+        my_float_complex_unit:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: milliampere / ms^2 * cm
+          type: np.float64
+          unit: ampere / second^2 * meter
+        my_float_derived_unit:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: eV
+          type: np.float64
+          unit: joule
+        my_float_unit:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              defaultDisplayUnit: fs
+          type: np.float64
+          unit: second
+        my_float_with_bounds:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              maxValue: 10
+              minValue: 0
+          type: np.float64
+          unit: meter
+        my_int:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+          type: int
+        my_int_with_bounds:
+          description: null
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+              maxValue: 10
+              minValue: 0
+          type: int
+        my_string:
           description: null
           m_annotations:
             eln:
               component: StringEditQuantity
+          type: string
+        my_url_link:
+          description: null
+          m_annotations:
+            eln:
+              component: URLEditQuantity
           type: string
